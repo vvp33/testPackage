@@ -1,0 +1,15 @@
+{
+  "name": "vvp33/testPackage",
+  "type": "library",
+  "description" : "TestPackage Library",
+  "version": "1.0.0",
+  "license" : "BSD-2-Clause",
+  "autoload": {
+    "psr-4": {
+      "TestPackage\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
